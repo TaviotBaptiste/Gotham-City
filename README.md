@@ -102,7 +102,7 @@ $ mix phx.server
 This project is under license from MIT.
 
 
-Made with :heart: by <a href="https://github.com/Xildrite" target="_blank">{{YOUR_NAME}}</a>
+Made with :heart: by <a href="https://github.com/Xildrite" target="_blank">Xildrite</a>
 
 &#xa0;
 
