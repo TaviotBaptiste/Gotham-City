@@ -1,0 +1,53 @@
+.header {
+  padding-top: 1%;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: rgb(240, 240, 240);
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  color: black;
+}
+
+.footer {
+ padding: 1%;
+ background-color: rgb(240, 240, 240);
+ font-size: 13px;
+ text-align: center;
+ width: 100%;
+ color: black;
+ z-index: 1;
+ position: fixed;
+ bottom: 0;
+}
+.window{
+  margin-bottom: 100px;
+}
+ 
+ .dashboard {
+   padding: 3% 1%;
+ }
+
+h1 {
+  text-align: center;
+} 
+h4 {
+  color: white;
+}
+
+.display-board {
+  width: 100%;
+  background-color: rgb(245, 145, 109);
+  padding: 5%;
+}
+
+.number {
+  color: white;
+  font-size: 75px;
+  text-align: center;
+}
+
+.mrgnbtm {
+  margin-top: 40px;
+}
