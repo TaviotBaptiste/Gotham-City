@@ -1,0 +1,38 @@
+version: "3"
+
+services:
+  back:
+    environment:
+      - SECRET_KEY_BASE=${SECRET_KEY_BASE}
+      - DATABASE_URL=ecto://${PGUSER}:${PGPASSWORD}@${PGHOSTNAME}/${PGDATABASE}
+    build: ./timemanager
+    container_name: back
+    depends_on:
+      - db
+    ports:
+      - "4000"
+
+  front:
+    build: ./front
+    container_name: front
+    depends_on:
+      - db
+      - back
+    ports:
+      - "8080"
+
+  db:
+    image: postgres:14
+    env_file: .env
+    restart: always
+    container_name: db
+    ports:
+      - "5432"
+    environment:
+      - POSTGRES_USER=${PGUSER}
+      - POSTGRES_PASSWORD=${PGPASSWORD}
+    volumes:
+      - db-data:/var/lib/postgres/data/
+
+volumes:
+  db-data:
