@@ -68,6 +68,23 @@ The following tools were used in this project:
 - [Postgres](https://www.postgresql.org/)
 - [JWT](https://jwt.io/)
 
+
+## ::monocle_face:: Look ##
+
+- Charts
+<img width="1439" alt="Charts" src="https://user-images.githubusercontent.com/30879857/202930001-536d663e-5286-4bc9-8884-4b4deb091263.png">
+
+
+- Auth
+<img width="1439" alt="Auth" src="https://user-images.githubusercontent.com/30879857/202930035-33f30687-662b-447d-8035-5751d9537c46.png">
+
+- Profile
+<img width="1439" alt="Profile" src="https://user-images.githubusercontent.com/30879857/202930055-5135aad9-6e83-44b7-8a15-325b50e0aef4.png">
+
+- Admin
+<img width="1439" alt="Admin" src="https://user-images.githubusercontent.com/30879857/202930088-a3f0ef44-34a1-4f81-8778-ef7266c6f9b2.png">
+
+
 ## :white_check_mark: Requirements ##
 
 Before starting :checkered_flag:, you need to have [Git](https://git-scm.com), [Postgres](https://www.postgresql.org/), [Elixir-lang](https://elixir-lang.org/) and [Node](https://nodejs.org/en/) installed.
